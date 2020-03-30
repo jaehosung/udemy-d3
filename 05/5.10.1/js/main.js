@@ -38,6 +38,7 @@ var xLabel = g.append("text")
     .attr("font-size", "20px")
     .attr("text-anchor", "middle")
     .text("GDP Per Capita ($)");
+
 var yLabel = g.append("text")
     .attr("transform", "rotate(-90)")
     .attr("y", -40)
@@ -45,6 +46,7 @@ var yLabel = g.append("text")
     .attr("font-size", "20px")
     .attr("text-anchor", "middle")
     .text("Life Expectancy (Years)")
+
 var timeLabel = g.append("text")
     .attr("y", height -10)
     .attr("x", width - 40)
